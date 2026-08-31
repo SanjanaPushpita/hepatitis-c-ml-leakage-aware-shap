@@ -132,3 +132,24 @@ hepatitis-c-ml-leakage-aware-shap/
 │
 └── paper/
     └── main_updated_results_final.tex
+
+
+## Key Findings
+
+This project shows that leakage-aware preprocessing is important in medical machine learning. Random Forest performed best in terms of overall accuracy and MCC, while SVM and Logistic Regression provided stronger macro-level and balanced performance. XGBoost achieved the highest ROC-AUC.
+
+The results also show that minority disease stages require careful evaluation because high overall accuracy can hide weak class-wise performance.
+
+## Limitations
+
+The dataset is small and highly imbalanced, especially for Suspect Blood Donor, Hepatitis, Fibrosis, and Cirrhosis classes. The model should not be considered ready for clinical deployment without external validation on larger and more diverse clinical datasets.
+
+## Authors
+
+- Maliha Sanjana
+- Mahdin Islam Mukim
+- Ishtiaq Ahammad
+
+## License
+
+This project is licensed under the MIT License.
