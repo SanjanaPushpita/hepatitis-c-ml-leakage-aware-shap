@@ -8,6 +8,16 @@ Hepatitis C Virus (HCV) is a liver infection that may progress into serious cond
 
 The main purpose of this work is not only to achieve good prediction performance, but also to make sure that the machine learning pipeline avoids data leakage and provides interpretable results.
 
+## Paper / Conference Note
+
+This repository contains the code, experimental results, and visualizations used for the paper accepted at **IEEE BECITHCON 2026**.
+
+**Conference:** IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health 2026  
+**Paper Status:** Accepted  
+**Research Area:** Machine Learning, Healthcare AI, Hepatitis C Classification, Explainable AI  
+
+The implementation in this repository supports the experimental analysis presented in the accepted manuscript. It includes the leakage-aware preprocessing pipeline, model evaluation results, confusion matrix, and SHAP-based explainability analysis.
+
 ## Dataset
 
 The project uses the publicly available Hepatitis C Prediction Dataset from Kaggle.
