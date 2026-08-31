@@ -1,0 +1,6 @@
+Class,Original,Train Before,Train After,Test
+0=Blood Donor,533,426,426,107
+0s=suspect Blood Donor,7,6,426,1
+1=Hepatitis,24,19,426,5
+2=Fibrosis,21,17,426,4
+3=Cirrhosis,30,24,426,6
